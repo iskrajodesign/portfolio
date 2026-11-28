@@ -941,13 +941,14 @@ main:focus{outline:none}
 .ab-bel{margin-top:56px}
 .ab-bel .mono-k{margin:0 0 20px}
 .ab-bel .bel{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:32px}
-.ab-bel .bel li{border-bottom:0;border-top:1px solid var(--line);padding:16px 0 0}
+.ab-bel .bel li{border-bottom:1px solid var(--line);border-top:1px solid var(--line);padding:16px 0}
 .ab-bot{display:grid;grid-template-columns:auto minmax(0,1fr);gap:64px;align-items:start;margin-top:72px}
 .ab-bot-r{display:grid;gap:24px;align-content:start;min-width:0}
 .ab-bot-r .ph-t{display:block}
 .ab-bot-r .ph-t h3{margin:0;color:var(--dim)}
 .ab-bot-r .ph-loop{margin-top:0}
-@media (max-width:820px){.ab-head,.ab-bot{grid-template-columns:1fr;gap:32px}.ab-bel .bel{grid-template-columns:1fr;gap:0}.ab-bel .bel li{border-top:0;border-bottom:1px solid var(--line);padding:14px 0}.ab-bot{margin-top:48px}}
+@media (max-width:820px){.ab-head,.ab-bot{grid-template-columns:1fr;gap:32px}.ab-bel .bel{grid-template-columns:1fr;gap:0}.ab-bel .bel li{border-top:0;border-bottom:1px solid var(--line);padding:14px 0}
+.ab-bel .bel li:first-child{border-top:1px solid var(--line)}.ab-bot{margin-top:48px}}
 
 /* v43 nadnaslov vo Hero samo na mobilen */
 @media (min-width:821px){.hero .kick{display:none}}
